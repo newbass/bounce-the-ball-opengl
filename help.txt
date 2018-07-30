@@ -1,0 +1,96 @@
+===============	GRAPHICS ASSIGNMENT 1 ==============
+
+Author   : Aanshul Sadaria (2nd year)
+Institute: IIIT Hyderabad (B. Tech CSE)
+Roll No. : 20161140
+Game Name: Bounce-The-Ball
+
+This game was built inspired by the vintage 'pacman' game,
+enhanced by theme and creativity.
+There are two levels in the game, played solely on keyboard
+controls.
+
+=====================================================
+
+ Basic Controls:
+
+Left-arrow key: Ball moves left
+Right-arrow key: Ball moves right
+Down-arrow key: Convert to trampoline
+	--> In each level, the player will get a chance to
+	    convert a(only one) block into trampoline when the
+	    ball lands on it.
+Up-arrow key: Ball jumps up
+	--> This control helps the ball to jump up when it is
+	    on ground(level 1) or cloud(level 2).
+ESC: To quit the game midway. (Though we prefer, you don't!) 
+
+=====================================================
+
+ Elements:
+
+Ground: The green patch where the journey of the ball begins in
+	in level 1 is the ground. The player can take off the
+	in the air using the "jump" control.
+
+Water:  The blue patch in the center of the ground is a water
+	body which influences the movement of the ball as per
+	the laws of physics. *Try it out to know more.
+
+Blocks: These are the scoring blocks shown in purple-black 
+	color. When you land on it for the first time, the 
+	score is incremented by 10 and the color turns yellow
+	to let the player know how far has he gone in the game.
+   *Note: These blocks sway in the air, in level 2. Well, 
+that's the theme. Cross the first level to learn more.
+
+Trampoline: In each level, the player will get a chance to
+	convert the block into a trampoline. Have a look
+	at the controls to know how to convert. From the next 
+	drops on the trampoline, the ball will jump higher than
+	the normal block. The color of the block is changed to
+	purple-blue.
+
+Cloud:  In level 2, the ground which served as the base of the
+	game is now replaced by a level higher, i.e. the 
+	clouds.
+
+Porcupine: The ugly looking beast making rounds on the cloud,
+	is the death of the player. Touch it, in case you get
+	bored.
+
+Snow:	The flying balls that appear floating from left to
+	right in level 2 are the snow ball which on colliding
+	with the ball fetches 5 points.
+
+==========================================================
+
+ Understanding the game:
+
+=> In level 1, you have to land on each of the 10 blocks to procede
+ to level 2. 
+   You may need the trampoline.
+   Use the control carefully.
+   Once you used a trampoline, the controls can't be reset.
+   After you have fetched 100 points in level 1, find out how to reach
+ the sky to get to level 2.
+
+=> In level 2, the difficulties have increased. 
+   You have proved your mettle. Now, time to prove your temperament. 
+   Fetch 250 points, here it isn't required that you land on all the balls. 
+   Snow balls can help you ticking with the scoreboard. 
+   Beware of the porcupine on the cloud. One touch, and the game ends. 
+   The blocks sway in a uniform direction initially. When you lands on a 
+ block, it randomly waits and moves.
+   There may be collisions among the blocks.
+   Also, due to heavy storm,
+ the ball is constanly moving to the right. Look at the effects, when you
+ move left or right while playing.
+   Fetch as many points as you can, and
+ end the game as you levelled up in level 1. Try reaching for the stars.
+
+===========================================================
+
+HAPPY GAMING!!
+
+=================== END OF GUIDELINES =====================
